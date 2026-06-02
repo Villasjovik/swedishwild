@@ -6,7 +6,7 @@
 <title>Swedish Wild × Villa Sjövik</title>
 <link rel="icon" type="image/svg+xml" href="./swedishwild-favicon.svg"/>
 <meta property="og:title" content="Swedish Wild × Villa Sjövik — Samarbetsförslag 2026"/>
-<meta property="og:description" content="Tre koncept där Swedish Wilds svenska viltkött möter Villa Sjöviks kök — renfilé, älgentrecôte och fjällröding från den svenska vildmarken, stylat och filmat för en publik som redan söker middagsinspiration."/>
+<meta property="og:description" content="Tre koncept där Swedish Wilds svenska viltkött möter Villa Sjöviks kök — renfilé, älgentrecôte och fjällröding från den svenska vildmarken, stylat och fotograferat för en publik som redan söker middagsinspiration."/>
 <meta property="og:image" content="https://villasjovik.github.io/swedishwild/og-image.png"/>
 <meta property="og:image:width" content="1200"/>
 <meta property="og:image:height" content="630"/>
@@ -15,7 +15,7 @@
 <meta property="og:type" content="website"/>
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:title" content="Swedish Wild × Villa Sjövik — Samarbetsförslag 2026"/>
-<meta name="twitter:description" content="Tre koncept där Swedish Wilds svenska viltkött möter Villa Sjöviks kök — renfilé, älgentrecôte och fjällröding, stylat och filmat för en publik som redan söker middagsinspiration."/>
+<meta name="twitter:description" content="Tre koncept där Swedish Wilds svenska viltkött möter Villa Sjöviks kök — renfilé, älgentrecôte och fjällröding, stylat och fotograferat för en publik som redan söker middagsinspiration."/>
 <meta name="twitter:image" content="https://villasjovik.github.io/swedishwild/og-image.png"/>
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
@@ -401,6 +401,8 @@ background:linear-gradient(90deg,transparent,var(--gold),transparent);transform:
 .price-grid>.pkg-col:last-child{--pb-rot:-11deg;animation-delay:0s}
 .price-grid>.pkg-col:not(.featured){--pb-scale:.9}
 .price-grid>.pkg-col.featured{--pb-scale:1;z-index:2}
+.price-grid.is-single{grid-template-columns:1fr;max-width:460px;perspective:none}
+.price-grid.is-single>.pkg-col{--pb-rot:0deg!important;--pb-base-y:0px!important;--pb-scale:1!important;animation:none!important}
 .pkg-col:hover{--pb-hover:-8px}
 
 .price-box{border:1px solid rgba(212,168,75,.2);border-top:2px solid rgba(212,168,75,.45);border-radius:22px;
@@ -941,7 +943,7 @@ position:relative;overflow:hidden;transition:color .35s}
         </div>
       </div>
     </div>
-    <h1 class="h-tagline">Svenskt viltkött från vildmark till bord &mdash; renfilé, älgentrecôte och fjällröding stylat, tillagat och filmat i de miljöer där Villa&nbsp;Sjöviks <em>följare</em> känner sig hemma.</h1>
+    <h1 class="h-tagline">Svenskt viltkött från vildmark till bord &mdash; renfilé, älgentrecôte och fjällröding stylat och fotograferat i de miljöer där Villa&nbsp;Sjöviks <em>följare</em> känner sig hemma.</h1>
     <div class="h-scroll" aria-hidden="true">
       <span>Utforska</span>
       <div class="h-line"></div>
@@ -1070,14 +1072,14 @@ position:relative;overflow:hidden;transition:color .35s}
   <div class="pr-orb pr-orb-1" aria-hidden="true"></div>
   <div class="pr-inner">
     <p class="sec-lbl rv">Investering</p>
-    <h2 class="sec-h2 rv">Två vägar att bygga <em>berättelse och räckvidd.</em></h2>
+    <h2 class="sec-h2 rv">Ett upplägg att <em>börja med.</em></h2>
 
-    <div class="price-grid">
+    <div class="price-grid is-single">
 
-      <!-- Startpaket -->
+      <!-- Karusellpaket (enda paket) -->
       <div class="pkg-col rv d1" data-pkg-col="start">
         <div class="pkg-boost" role="group" aria-pressed="false" data-pkg="start">
-          <button type="button" class="pkg-boost-head" aria-pressed="false" aria-controls="pkg-boost-body-start" aria-label="Aktivera Meta-räckvidd för Startpaket">
+          <button type="button" class="pkg-boost-head" aria-pressed="false" aria-controls="pkg-boost-body-start" aria-label="Aktivera Meta-räckvidd">
             <span class="pkg-boost-switch" aria-hidden="true"></span>
             <span class="pkg-boost-text">
               <span class="pkg-boost-tag">Valfritt &middot; <em>Rekommenderat</em></span>
@@ -1086,11 +1088,11 @@ position:relative;overflow:hidden;transition:color .35s}
           </button>
           <div class="pkg-boost-body" id="pkg-boost-body-start" aria-hidden="true">
             <div class="pkg-boost-body-inner">
-              <p class="pkg-boost-desc" data-pkg-desc="start">Över <strong class="pkg-boost-stat" data-bt-stat="start">150&nbsp;000</strong> gånger extra! Meta retargeting driver in tittarna med en klickbar länk PÅ videon direkt i Instagram och Facebook &mdash; för en sömlös övergång och dirigering av trafiken, direkt hem till er webbplats.</p>
+              <p class="pkg-boost-desc" data-pkg-desc="start">Meta-räckvidd lyfter karusellen som annons och visar den igen för de som redan sett den &mdash; över <strong class="pkg-boost-stat" data-bt-stat="start">150&nbsp;000</strong> extra exponeringar, med trafik direkt hem till er webbplats.</p>
               <p class="pkg-boost-desc-zero" data-pkg-desc-zero="start" hidden>Dra reglaget till en budget nedan för att se hur många extra exponeringar paketet ger.</p>
               <div class="pkg-slider">
-                <label class="pkg-slider-lbl" for="pk-range-start">Meta-budget per produktion</label>
-                <input id="pk-range-start" class="pkg-range" type="range" min="0" max="3" step="1" value="2" data-pkg-slider="start" aria-label="Meta-budget per produktion för Startpaket"/>
+                <label class="pkg-slider-lbl" for="pk-range-start">Meta-budget</label>
+                <input id="pk-range-start" class="pkg-range" type="range" min="0" max="3" step="1" value="2" data-pkg-slider="start" aria-label="Meta-budget"/>
                 <div class="pkg-ticks" aria-hidden="true">
                   <span class="pkg-tick" data-pkg-tick="start" data-step="0">0 kr</span>
                   <span class="pkg-tick" data-pkg-tick="start" data-step="1">5 000</span>
@@ -1102,62 +1104,16 @@ position:relative;overflow:hidden;transition:color .35s}
           </div>
         </div>
         <div class="price-box rv" data-pkg-box="start">
-          <h3 class="price-title">Startpaket</h3>
-          <p class="price-sub">1 video &middot; 2 stories med CTA &middot; 10 miljöbilder</p>
+          <h3 class="price-title">Karusellpaket</h3>
+          <p class="price-sub">10 miljöbilder &middot; publiceras som karusell på Villa Sjövik</p>
           <p class="price-total-lbl">Pris</p>
-          <p class="price-total" data-base="18500" data-boost="28500">18 500</p>
+          <p class="price-total" data-base="10000" data-boost="20000">10 000</p>
           <span class="price-unit">SEK &middot; exkl. moms</span>
           <div class="price-includes">
-            <p class="pi hi">1 video publicerad i Villa Sjöviks kanaler</p>
-            <p class="pi hi">2 stories med direktlänk och CTA</p>
             <p class="pi hi">10 miljöbilder i autentisk hemmiljö</p>
+            <p class="pi hi">Publiceras som karusell i Villa Sjöviks kanaler (164k följare)</p>
             <p class="pi">Full nyttjanderätt till allt material</p>
-            <p class="pi">Styling, filmning och redigering ingår</p>
-          </div>
-        </div>
-      </div>
-
-      <!-- Kampanjpaket (featured) -->
-      <div class="pkg-col featured rv d2" data-pkg-col="season">
-        <div class="pkg-boost" role="group" aria-pressed="false" data-pkg="season">
-          <button type="button" class="pkg-boost-head" aria-pressed="false" aria-controls="pkg-boost-body-season" aria-label="Aktivera Meta-räckvidd för Kampanjpaket">
-            <span class="pkg-boost-switch" aria-hidden="true"></span>
-            <span class="pkg-boost-text">
-              <span class="pkg-boost-tag">Valfritt &middot; <em>Rekommenderat</em></span>
-              <span class="pkg-boost-title">Aktivera Meta-räckvidd <span class="pkg-boost-price" data-bt-price="season">+30&nbsp;000 SEK</span></span>
-            </span>
-          </button>
-          <div class="pkg-boost-body" id="pkg-boost-body-season" aria-hidden="true">
-            <div class="pkg-boost-body-inner">
-              <p class="pkg-boost-desc" data-pkg-desc="season">Alla tre produktionerna får retargeting. Videorna visas igen för de som redan tittat &mdash; över <strong class="pkg-boost-stat" data-bt-stat="season">450&nbsp;000</strong> gånger extra! Meta retargeting driver in tittarna med en klickbar länk PÅ varje video direkt i Instagram och Facebook &mdash; för en sömlös övergång och dirigering av trafiken, direkt hem till er webbplats.</p>
-              <p class="pkg-boost-desc-zero" data-pkg-desc-zero="season" hidden>Dra reglaget till en budget nedan för att se hur många extra exponeringar paketet ger.</p>
-              <div class="pkg-slider">
-                <label class="pkg-slider-lbl" for="pk-range-season">Meta-budget per produktion</label>
-                <input id="pk-range-season" class="pkg-range" type="range" min="0" max="3" step="1" value="2" data-pkg-slider="season" aria-label="Meta-budget per produktion för Kampanjpaket"/>
-                <div class="pkg-ticks" aria-hidden="true">
-                  <span class="pkg-tick" data-pkg-tick="season" data-step="0">0 kr</span>
-                  <span class="pkg-tick" data-pkg-tick="season" data-step="1">5 000</span>
-                  <span class="pkg-tick is-active" data-pkg-tick="season" data-step="2">10 000</span>
-                  <span class="pkg-tick" data-pkg-tick="season" data-step="3">20 000</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="price-box featured rv" data-pkg-box="season">
-          <span class="price-ribbon">Rekommenderat &middot; MEST VÄRDE</span>
-          <h3 class="price-title">Kampanjpaket</h3>
-          <p class="price-sub">3 videor &middot; 6 stories med CTA &middot; 30 miljöbilder</p>
-          <p class="price-total-lbl">Pris</p>
-          <p class="price-orig" data-base="ord. 55 500 kr" data-boost="ord. 85 500 kr">ord. 55 500 kr</p>
-          <p class="price-total" data-base="39000" data-boost="69000">39 000</p>
-          <span class="price-unit">SEK &middot; exkl. moms</span>
-          <div class="price-includes">
-            <p class="pi hi">3 videor publicerade i Villa Sjöviks kanaler</p>
-            <p class="pi hi">6 stories med direktlänk och CTA</p>
-            <p class="pi hi">30 miljöbilder i autentisk hemmiljö</p>
-            <p class="pi">Full nyttjanderätt till allt material</p>
-            <p class="pi">Styling, filmning och redigering ingår</p>
+            <p class="pi">Styling och fotografering ingår</p>
           </div>
         </div>
       </div>
